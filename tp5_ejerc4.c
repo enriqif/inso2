@@ -16,6 +16,7 @@ int main(int argc, char *argv[])
 		strcpy(productos[x].nombre,"X"); 
 		productos[x].precio=0; 
 		productos[x].cantidad=0; 
+		//prueba para la modificacion del archivo
 	}
 	while ((opcion==1 || opcion==2 || opcion==3) && (opcion!=4)) 
 	{ //las opciones deberian tener por lo menos un comentario de que es lo que se va a realizar
