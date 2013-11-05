@@ -2,7 +2,7 @@
 #include <stdlib.h> 
 
 struct producto { 
-	char nombre[50]; 
+	char nombre[50]; //comentario linea 5
 	float precio; 
 	int cantidad; 
 }; 
