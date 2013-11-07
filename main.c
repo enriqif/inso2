@@ -29,11 +29,11 @@ int main(int argc, char *argv[])
                     gets(prod.nombre);
                     printf("Introduzca un precio: ");
                     scanf("%f",&prod.precio);
-                    if( isdigit(var1) ){
-                        scanf("%f",&prod.precio);
-                    }else{
-                        printf("var1 = |%c| is a digit\n", var1 );
-                    }
+                    //if( isdigit(var1) ){
+                      //  scanf("%f",&prod.precio);
+                    //}else{
+                      //  printf("var1 = |%c| is a digit\n", var1 );
+                    //}
                     printf("Introduzca cantidad: ");
                     scanf("%d",&prod.cantidad); //se deberia comprobar el valor correcto del precio
                     for(x = 9; x>=0; x--)//no deberia usar numeros directamente, sino usar constantes que puedan
